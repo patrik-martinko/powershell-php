@@ -2,7 +2,7 @@
 
 This module helps you install the PHP language and extensions like Xdebug and others.
 
-- Installation
+## Installation
 ```powershell
 Install-Module -Name Php
 ```
