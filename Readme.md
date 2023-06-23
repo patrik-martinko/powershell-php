@@ -1,6 +1,6 @@
-# [PowerShell Module / Php](https://www.powershellgallery.com/packages/Php)
+# [PowerShell Module / Php](https://www.powershellgallery.com/packages/Php) ![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/Php?color=black&label=Number%20of%20installations:)
 
-This module helps you install the PHP language and extensions like Xdebug and others.
+Helps you install the PHP language and extensions like Xdebug and others.
 
 ## Installation
 ```powershell
