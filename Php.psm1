@@ -13,7 +13,7 @@ Function Install-Php {
     $UriBase = 'https://windows.php.net'
     $Response = Invoke-WebRequest -UseBasicParsing -Uri ($UriBase + '/download')
     $PathDownload = ($Response.Links | Where-Object -Property 'Href' -Match "downloads/releases/(php-$Version[\d.]*-Win32-\w{4}$Architecture.zip)" | Select-Object -First 1).Href
-    IF (-Not $Matches[0]) {
+    If (-Not $Matches[0]) {
         Write-Error -Message 'PHP version was not found'
     }
     $FileZip = $Matches[1]
